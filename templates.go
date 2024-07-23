@@ -5,7 +5,7 @@ const defaultOutTpl = `{{ .InstanceId }}`
 
 const defaultPreviewTpl = `{{.InstanceId}} :: {{ name .}}
 ---------------------------------------------------
-Operating System: {{.Platform}}
+Status: {{.State.Name}}
 Architecture: {{.Architecture}}
 AMI ID: {{.ImageId}}
 Private IP: 
